@@ -4,7 +4,6 @@ from selenium.webdriver.support import expected_conditions as EC
 from locators import login_page_locators
 from base import drivers
 from utility_functions import data_cleaner, csv_handler, date_formattor
-
 locators = login_page_locators.login_page_locators()
 class pages(drivers.configure_dirvers):
     def __init__(self):
